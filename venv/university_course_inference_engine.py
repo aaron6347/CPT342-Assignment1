@@ -28,11 +28,15 @@ try:
         # choose question
         question, options = header[current_question_ind].split("(")
         options = list(options.replace(")", "").replace(" ", "").split(","))
+        options_desc = "(Remarks: H: High, M: Medium, L: Low)"
         # validate options for CGPA situation
         if "CGPA" in question:
             options = ["H", "L"]
+            options_desc = "(Remarks: H: >2.50, L: <2.50)"
         print("What is your {}?".format(question))
         print("Options: ", options)
+        if "Major" not in question and "computer" not in question:
+            print(options_desc)
         # accept query
         user = input()
         # if user answer is not in the options, then continue ask the same question
@@ -46,6 +50,7 @@ try:
                 answer_pool.remove(course)
             print("internal finding answer", answer_pool) ############################################################################################# to del
 
+        print("\n")
         # if there is one or no more course in answer_pool or the current_question_ind has reach the end, then display answer
         if len(answer_pool) <= 1 or current_question_ind == len(header)-1:
             result = True
