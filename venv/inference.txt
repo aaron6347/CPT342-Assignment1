@@ -194,3 +194,100 @@ Possible Course: []
 
 Inference Result: Computer Science
 COMPLETED
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: []
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: []
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: []
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: []
+
+Inference Result: Not Found
+COMPLETED
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: []
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: []
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: []
+
+Question: Interest in computers and machines 
+Answer: False
+Possible Course: []
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Not Found
+COMPLETED

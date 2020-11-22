@@ -1,6 +1,43 @@
 """university_course_inference_engine.py
     Created by Aaron at 20-Nov-20"""
 import csv
+import tkinter as tk
+
+window = tk.Tk()
+window.title("University Programme Expert System")
+for i in range(3):
+    window.rowconfigure(i, weight=1, minsize=25)
+    window.columnconfigure(i, weight=1, minsize=25)
+
+
+def button_pressed(event):
+    print(event.widget.cget("text"))
+    window.destroy()
+
+
+frame = tk.Frame(master=window)
+frame.grid(row=0, column=1)
+
+question = tk.Label(text="Lul", width=10, height=10, master=frame)
+question.pack()
+
+mainFrame = tk.Frame(master=window)
+mainFrame.grid(row=1, column=1)
+
+frame2 = tk.Frame(master=mainFrame, relief=tk.RAISED, borderwidth=2)
+frame2.pack(side=tk.LEFT, padx=20, pady=20)
+
+choice = tk.Button(text="Click here", width=8, height=2, master=frame2)
+choice.bind("<Button-1>", button_pressed)
+choice.pack()
+
+frame3 = tk.Frame(master=mainFrame, relief=tk.RAISED, borderwidth=2)
+frame3.pack(side=tk.LEFT, padx=20, pady=20)
+
+choice2 = tk.Button(text="Click There", width=8, height=2, master=frame3)
+choice2.bind("<Button-1>", button_pressed)
+choice2.pack()
+window.mainloop()
 
 # open knowledge csv file
 try:
@@ -8,23 +45,24 @@ try:
         # data structure to store facts
         reader = csv.DictReader(knowledge)
         header = reader.fieldnames  # to store all header
-        courses_dict = {}           # to store all courses' data
+        courses_dict = {}  # to store all courses' data
         # read and store facts
         for ind, row in enumerate(reader):
-            collection_of_data = [] # to compile a course's facts
+            collection_of_data = []  # to compile a course's facts
             # compilation facts process
             for each in row:
                 collection_of_data.append(row[each])
             courses_dict[collection_of_data.pop(0)] = collection_of_data
-        print(courses_dict) ############################################################################################# to del
+        print(
+            courses_dict)  ############################################################################################# to del
     # to store university course inference result
     result = False
     answer = ''
-    current_question_ind = 1    # start from 1 because question is from 1 in variable header
+    current_question_ind = 1  # start from 1 because question is from 1 in variable header
 
     # inference process
-    answer_pool = list(courses_dict.keys())     # possible course as the result of inference
-    while(not result):
+    answer_pool = list(courses_dict.keys())  # possible course as the result of inference
+    while (not result):
         # choose question
         question, options = header[current_question_ind].split("(")
         options = list(options.replace(")", "").replace(" ", "").split(","))
@@ -46,13 +84,14 @@ try:
         # if user answer is in the options, then find possible result
         for course in answer_pool[:]:
             # if the course's fact isn't same as user answer, then remove the course from answer_pool
-            if courses_dict[course][current_question_ind-1] != user:
+            if courses_dict[course][current_question_ind - 1] != user:
                 answer_pool.remove(course)
-            print("internal finding answer", answer_pool) ############################################################################################# to del
+            print("internal finding answer",
+                  answer_pool)  ############################################################################################# to del
 
         print("\n")
-        # if there is one or no more course in answer_pool or the current_question_ind has reach the end, then display answer
-        if len(answer_pool) <= 1 or current_question_ind == len(header)-1:
+        # if the current_question_ind has reach the end, then display answer
+        if current_question_ind == len(header) - 1:
             result = True
             # if there is result
             if len(answer_pool) == 1:
@@ -75,10 +114,8 @@ try:
             writer.write("\nInference Result: {}\n".format(answer))
             writer.write("COMPLETED\n")
         # if inference process hasn't completed
-        current_question_ind += 1   # to proceed next question
+        current_question_ind += 1  # to proceed next question
 
 # if knowledge csv file not found
 except FileNotFoundError as e:
     print("university_course_knowledge.csv is not found!")
-
-
