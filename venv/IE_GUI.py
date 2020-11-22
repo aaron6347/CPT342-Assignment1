@@ -91,7 +91,7 @@ try:
                       answer_pool)  ############################################################################################# to del
 
             # if the current_question_ind has reach the end, then display answer
-            if len(answer_pool) == 1 or current_question_ind == len(header) - 1:
+            if len(answer_pool) <= 1 or current_question_ind == len(header) - 1:
                 result = True
                 # if there is result
                 if len(answer_pool) == 1:
