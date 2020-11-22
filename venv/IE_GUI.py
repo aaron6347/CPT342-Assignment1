@@ -67,13 +67,18 @@ try:
         # GUI Main Window
         app = tk.Tk()
         app.title("University Programme Expert System")
-        app.geometry("400x300")
+        windowWidth = app.winfo_reqwidth()
+        windowHeight = app.winfo_reqheight()
+        positionRight = int(app.winfo_screenwidth() / 2 - windowWidth / 2)
+        positionDown = int(app.winfo_screenheight() / 3 - windowHeight / 2)
+        app.geometry("600x450+{}+{}".format(positionRight, positionDown))
+
         for i in range(3):
             app.rowconfigure(i, weight=1, minsize=25)
             app.columnconfigure(i, weight=1, minsize=25)
 
         questionFrame = tk.Frame(master=app)
-        questionFrame.grid(row=0, column=1)
+        questionFrame.grid(row=0, column=1, padx=20, pady=20)
 
         buttonsFrame = tk.Frame(master=app)
         buttonsFrame.grid(row=1, column=1)
@@ -119,6 +124,14 @@ try:
             app.destroy()
 
 
+        def on_enter(event):
+            event.widget.config(background="#d7d7d7")
+
+
+        def on_leave(event):
+            event.widget.config(background="SystemButtonFace")
+
+
         # choose question
         question, options = header[current_question_ind].split("(")
         options = list(options.replace(")", "").replace(" ", "").split(","))
@@ -127,28 +140,23 @@ try:
         if "CGPA" in question:
             options = ["H", "L"]
             options_desc = "(Remarks: H: >2.50, L: <2.50)"
-        # print("What is your {}?".format(question))
-        # print("Options: ", options)
+
         labelString = "What is your {}?".format(question)
         if "Major" not in question and "computer" not in question:
             labelString += "\n" + options_desc
-        questionLabel = tk.Label(text=labelString, master=questionFrame)
+        questionLabel = tk.Label(text=labelString, master=questionFrame, font=("Times New Roman", 16, "bold"))
         questionLabel.pack()
-        # accept query
-        # user = input()
-        # # if user answer is not in the options, then continue ask the same question
-        # if user not in options:
-        #     print("Invalid Option")
-        #     continue
 
+        # accept query
         for opt in options:
             buttonFrame = tk.Frame(master=buttonsFrame, relief=tk.RAISED, borderwidth=2)
-            buttonFrame.pack(side=tk.LEFT, padx=20, pady=20)
-            button = tk.Button(text=opt, width=8, height=2, master=buttonFrame)
+            buttonFrame.pack(side=tk.LEFT, padx=40, pady=40)
+            button = tk.Button(text=opt, width=12, height=2, master=buttonFrame, font=("Times New Roman", 10))
             button.bind("<Button-1>", process_result)
+            button.bind("<Enter>", on_enter)
+            button.bind("<Leave>", on_leave)
             button.pack()
 
-        # if inference process hasn't completed
         app.mainloop()
 
 # if knowledge csv file not found
