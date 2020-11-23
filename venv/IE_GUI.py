@@ -62,7 +62,7 @@ try:
 
     # inference process
     answer_pool = list(courses_dict.keys())  # possible course as the result of inference
-    while (not result):
+    while not result:
         # GUI Main Window
         app = tk.Tk()
         app.title("University Programme Expert System")
