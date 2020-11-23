@@ -2,33 +2,16 @@
 _____New Inference_____
 
 Question: Pre University Major 
-Answer: Art
-Possible Course: ['Law', 'Business & Management', 'Linguistics', 'Art', 'Islamic Studies']
-
-Question: CGPA pointer 
-Answer: H
-Possible Course: []
-
-Inference Result: Law
-COMPLETED
-
-_____New Inference_____
-
-Question: Pre University Major 
 Answer: Science
-Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Physics Studies', 'Biological Science']
 
 Question: CGPA pointer 
 Answer: H
-Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Physics Studies']
 
-Question: Proficiency in Communication 
-Answer: M
-Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+Question: Interest in computers 
+Answer: TRUE
+Possible Course: ['Computer Science']
 
-Question: Proficiency in Mathematics 
-Answer: H
-Possible Course: []
-
-Inference Result: Engineering Studies
+Inference Result: Computer Science
 COMPLETED

@@ -22,10 +22,52 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/harvardx_cs50/w7/import.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CPT342-Assignment1-Shuen" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.IE_GUI (1)">
+    <configuration name="IE_GUI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CPT342-Assignment1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/IE_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IE_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CPT342-Assignment1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/new" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/new/IE_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="university_course_inference_engine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CPT342-Assignment1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IE_GUI (1)" />
+        <item itemvalue="Python.IE_GUI" />
         <item itemvalue="Python.university_course_inference_engine" />
       </list>
     </recent_temporary>
@@ -79,26 +123,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1605869972763">
+    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1606057217162">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1605869972763" />
-    <state width="1492" height="162" key="GridCell.Tab.0.bottom" timestamp="1605963402235">
+    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1606057217162" />
+    <state width="1492" height="251" key="GridCell.Tab.0.bottom" timestamp="1606123980527">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="162" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1605963402235" />
-    <state width="1492" height="162" key="GridCell.Tab.0.center" timestamp="1605963402235">
+    <state width="1492" height="251" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1606123980527" />
+    <state width="1492" height="251" key="GridCell.Tab.0.center" timestamp="1606123980527">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="162" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1605963402235" />
-    <state width="1492" height="162" key="GridCell.Tab.0.left" timestamp="1605963402235">
+    <state width="1492" height="251" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1606123980527" />
+    <state width="1492" height="251" key="GridCell.Tab.0.left" timestamp="1606123980527">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="162" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1605963402235" />
-    <state width="1492" height="162" key="GridCell.Tab.0.right" timestamp="1605963402235">
+    <state width="1492" height="251" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1606123980527" />
+    <state width="1492" height="251" key="GridCell.Tab.0.right" timestamp="1606123980527">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="162" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1605963402235" />
+    <state width="1492" height="251" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1606123980527" />
     <state x="444" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1605956971172">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
