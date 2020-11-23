@@ -108,3 +108,20 @@ Possible Course: ['Computer Science']
 
 Inference Result: Computer Science
 COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Art
+Possible Course: ['Law', 'Business & Management', 'Linguistics', 'Art', 'Islamic Studies', 'Visual Communication Design']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: ['Business & Management', 'Linguistics', 'Art', 'Islamic Studies', 'Visual Communication Design']
+
+Question: Interest in computers 
+Answer: True
+Possible Course: ['Visual Communication Design']
+
+Inference Result: Visual Communication Design
+COMPLETED

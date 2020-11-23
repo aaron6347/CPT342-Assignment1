@@ -1,11 +1,12 @@
-University Courses,"Pre University Major (Science, Art)","CGPA pointer (H : >2.50, L : <2.50)","Interest in computers (TRUE, FALSE)","Proficiency in Communication (H, M, L)","Preferred Learning Mode (Hands-on, Research)"
-Education,Science,H,FALSE,H,Hands-on
-Engineering Studies,Science,H,FALSE,M,Hands-on
-Computer Science,Science,H,TRUE,M,Hands-on
-Physics Studies,Science,H,FALSE,L,Research
-Biological Science,Science,L,FALSE,M,Research
-Law,Art,H,FALSE,H,Hands-on
-Business & Management,Art,L,FALSE,H,Hands-on
-Linguistics,Art,L,FALSE,H,Research
-Art,Art,L,FALSE,L,Hands-on
-Islamic Studies,Art,L,FALSE,M,Research
+University Courses,"Pre University Major (Science, Art)","CGPA pointer (H : >2.50, L : <2.50)","Interest in computers (True, False)","Proficiency in Communication (H, M, L)","Preferred Learning Mode (Hands-on, Research)"
+Education,Science,H,False,H,Hands-on
+Engineering Studies,Science,H,False,M,Hands-on
+Computer Science,Science,H,True,M,Hands-on
+Physics Studies,Science,H,False,L,Research
+Biological Science,Science,L,False,M,Research
+Law,Art,H,False,H,Hands-on
+Business & Management,Art,L,False,H,Hands-on
+Linguistics,Art,L,False,H,Research
+Art,Art,L,False,L,Hands-on
+Islamic Studies,Art,L,False,M,Research
+Visual Communication Design,Art,L,True,L,Hands-on
