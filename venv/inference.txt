@@ -32,3 +32,439 @@ Possible Course: []
 
 Inference Result: Engineering Studies
 COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: H
+Possible Course: []
+
+Inference Result: Engineering Studies
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: []
+
+Inference Result: Not Found
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: []
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: []
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: []
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: []
+
+Inference Result: Not Found
+COMPLETED
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: []
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: []
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: []
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: []
+
+Question: Interest in computers and machines 
+Answer: False
+Possible Course: []
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Not Found
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+Inference Result: Not Found
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Medical Degree', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science', 'Medical Degree']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Interest in computers and machines 
+Answer: True
+Possible Course: ['Computer Science', 'Medical Degree']
+
+Question: Creativity Thinking 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Biological Science', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: L
+Possible Course: []
+
+Inference Result: Biological Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Biological Science', 'Physics Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Physics Studies']
+
+Question: Proficiency in Communication 
+Answer: M
+Possible Course: ['Engineering Studies', 'Computer Science']
+
+Question: Proficiency in Mathematics 
+Answer: M
+Possible Course: []
+
+Inference Result: Computer Science
+COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Art
+Possible Course: ['Law', 'Business & Management', 'Linguistics', 'Art', 'Islamic Studies']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: []
+
+Inference Result: Law
+COMPLETED
