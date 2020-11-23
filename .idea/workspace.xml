@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="291109dd-ed6e-46ed-adbb-43d7e752ed7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/IE_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/IE_GUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/inference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/inference.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/university_course_knowledge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/university_course_knowledge.csv" afterDir="false" />
     </list>
