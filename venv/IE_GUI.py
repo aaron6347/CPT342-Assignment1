@@ -72,6 +72,7 @@ try:
         positionRight = int(app.winfo_screenwidth() / 2 - windowWidth / 2)
         positionDown = int(app.winfo_screenheight() / 3 - windowHeight / 2)
         app.geometry("600x450+{}+{}".format(positionRight, positionDown))
+        app.configure(bg="#444444")
 
         for i in range(3):
             app.rowconfigure(i, weight=1, minsize=25)
@@ -80,7 +81,7 @@ try:
         questionFrame = tk.Frame(master=app)
         questionFrame.grid(row=0, column=1, padx=20, pady=20)
 
-        buttonsFrame = tk.Frame(master=app)
+        buttonsFrame = tk.Frame(master=app, bg="#444444")
         buttonsFrame.grid(row=1, column=1)
 
 
@@ -144,7 +145,8 @@ try:
         labelString = "What is your {}?".format(question)
         if "Major" not in question and "computer" not in question:
             labelString += "\n" + options_desc
-        questionLabel = tk.Label(text=labelString, master=questionFrame, font=("Times New Roman", 16, "bold"))
+        questionLabel = tk.Label(text=labelString, master=questionFrame, font=("Times New Roman", 16, "bold"),
+                                 bg="#444444", fg="#FFFFFF")
         questionLabel.pack()
 
         # accept query
