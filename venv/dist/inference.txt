@@ -125,3 +125,20 @@ Possible Course: ['Visual Communication Design']
 
 Inference Result: Visual Communication Design
 COMPLETED
+
+_____New Inference_____
+
+Question: Pre University Major 
+Answer: Science
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Physics Studies', 'Biological Science']
+
+Question: CGPA pointer 
+Answer: H
+Possible Course: ['Education', 'Engineering Studies', 'Computer Science', 'Physics Studies']
+
+Question: Interest in computers 
+Answer: True
+Possible Course: ['Computer Science']
+
+Inference Result: Computer Science
+COMPLETED
